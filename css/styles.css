@@ -49,3 +49,11 @@ a, a:hover{
 .carousel {
     border: solid #5637DD;
 }
+
+.nav-tabs {
+    background-color:darksalmon;
+}
+
+.navbar-darksalmon {
+    background-color: darksalmon;
+}
