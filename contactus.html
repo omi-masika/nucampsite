@@ -6,14 +6,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
     <title>NuCamp: A Better Way To Camp</title>
 </head>
@@ -84,7 +83,6 @@
         <div class="row row-content">
             <div class="col-12">
                 <h2>Send us your Feedback</h2>
-                <hr />
             </div>
             <div class="col-md-10">
                 <form>
@@ -98,24 +96,24 @@
                     <div class="form-group row">
                         <label for="lastName" class="col-md-2 col-form-label"> Last Name </label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control id=" lastName" name="lastName"
+                            <input type="text" class="form-control" id=" lastName" name="lastName"
                                 placeholder="Last Name" />
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="telNum" class="col-md-2 col-form-label"> Contact Tel. </label>
                         <div class=" col-5 col-md-3">
-                            <input type="tel" class="form-control id=" telNum" name="areaCode"
+                            <input type="tel" class="form-control" id=" telNum" name="areaCode"
                                 placeholder="Area Code" />
                         </div>
                         <div class="col-7">
-                            <input type="tel" class="form-control name=" telNum" placeholder="Tel. Number" />
+                            <input type="tel" class="form-control" name=" telNum" placeholder="Tel. Number" />
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="col-md-2 col-form-label"> Email </label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control name=" email" id="email" placeholder="Email" />
+                            <input type="email" class="form-control" name=" email" id="email" placeholder="Email" />
                         </div>
                     </div>
                     <div class="form-group row">
@@ -134,7 +132,7 @@
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label"> Your Feedback </label>
                         <div class="col-md-10">
-                            <textarea name="feedback" class="form-control id=" feedback" rows="8"></textarea>
+                            <textarea name="feedback" class="form-control" id="feedback" rows="8"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -145,7 +143,6 @@
                 </form>
             </div>
         </div>
-
     </div>
 
     <footer class="site-footer">
@@ -181,10 +178,12 @@
         </div>
     </footer>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 
